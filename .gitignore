@@ -1,0 +1,13 @@
+# 忽略数据目录 (里面有敏感配置)
+data/
+config.json
+189api.db
+app.log
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db

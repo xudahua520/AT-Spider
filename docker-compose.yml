@@ -1,0 +1,14 @@
+services:
+  tg-bot:
+    build: .
+    container_name: at_spider
+    restart: unless-stopped
+    # 🌟 端口修改为 8877
+    ports:
+      - "8877:8877"
+    volumes:
+      - /vol1/1000/docker/at_spider/data:/app/data
+    environment:
+      - TZ=Asia/Shanghai
+      # 👇👇👇 在这里修改版本号，网页页脚会自动同步 👇👇👇
+      - APP_VERSION=v1.0.0 Pro
