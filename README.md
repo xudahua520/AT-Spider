@@ -5,7 +5,7 @@
 这是一个非常强大且专业的 Telegram 资源自动抓取与转存脚本，专为搭建个人影视库（NAS 或 TVBox）而设计，实现"全自动追剧"功能。此容器使用的是TG群AList Tvbox里大神开发的py脚本生成。
 
 **感谢大神:我就问这瓜保熟不 提供的py脚本** 
-
+![Screenshot](https://youke2.picui.cn/s1/2025/12/12/693c3193b3c8f.png)
 ## 🔧 核心功能
 
 ### 📥 自动抓取
@@ -51,4 +51,5 @@ services:
     environment:
       - TZ=Asia/Shanghai
 ```
+
 
